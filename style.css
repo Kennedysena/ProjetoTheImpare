@@ -1,0 +1,154 @@
+* {
+  margin: 0px;
+ box-sizing: border-box;
+}
+body{
+  padding: 0;
+  margin: 0;
+}
+
+h1{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #00696F ;
+  font-style: normal;
+  font-family: 'Source Code Pro', monospace;
+}
+#cabeçalho{
+  padding: 40px;
+
+}
+
+#cabeçalho{
+  display: flex;
+  background-color: #00B3B5;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0px;
+}
+
+.email{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  margin: 5px;
+  font-size: 18px;
+  color: rgba(89, 89, 89, 0.5);
+  font-family: 'Nunito', sans-serif;
+
+}
+.senha{
+margin: 10px;
+border: 2px #00B3B5;
+}
+
+.continuar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 100%;
+  padding: 1.3rem 0;
+  border: 1px solid lightgray;
+}
+.login{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  margin: 5px;
+  font-size: 18px;
+  color: rgba(89, 89, 89, 0.5);
+  font-family: 'Nunito', sans-serif;
+
+}
+p {
+  align-items: center;
+  align-items: center;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  background-color:#00B3B5;
+  width: 100%;
+  text-align: center;
+  line-height: 30px;
+  padding: 20px;
+  margin: 0px;
+  color: #ffffff;
+  font-size: 20px;
+}
+#rodape{
+  width: 40px;
+}
+#formulario{
+  font-family: 'Nunito', sans-serif;
+  color: rgba(89, 89, 89, 0.5);
+}
+
+.login2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  margin: 5px;
+  font-size: 18px;
+  color: rgba(89, 89, 89, 0.5);
+  font-family: 'Nunito', sans-serif;
+
+}
+.corpo{
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin: 5px;
+  font-size: 18px;
+  margin-right: 100px;
+}
+.formulario{
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  margin: 5px;
+  font-size: 18px;
+  color: rgba(89, 89, 89, 0.5);
+
+
+}
+input{
+  border: 2px solid #00b3b5;
+  color: #ffffff;
+}
+label{
+  font-family:'Nunito', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  margin: 5px;
+  font-size: 18px;
+  color: rgba(89, 89, 89, 0.5);
+  font-family: 'Nunito', sans-serif;
+
+}
+div{
+text-align: center;
+}
+a{
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+}
+  
+
